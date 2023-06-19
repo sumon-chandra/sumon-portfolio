@@ -1,10 +1,17 @@
-
+import pattern from "./assets/pattern.png";
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
-    <div>
-      <h2>Hello World</h2>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <section
+        style={{ backgroundImage: `url(${pattern})` }}
+        className="min-h-screen w-full"
+      >
+        <h2>Hello World</h2>
+      </section>
+    </>
+  );
+};
 
-export default App
+export default App;
