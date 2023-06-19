@@ -4,20 +4,69 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .primary-btn {
-    @apply hover:ring-4 ring-sec-color;
-  }
-}
-
 body {
   font-family: "Radio Canada", sans-serif;
   background-color: #0b1224f3;
   color: #fafafa;
 }
-.nav-glass {
+.my-glass {
   backdrop-filter: blur(3px) saturate(0%);
   -webkit-backdrop-filter: blur(3px) saturate(0%);
   background-color: rgba(15, 23, 42, 0.78);
   border-bottom: 1px solid #9394a2;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.conic {
+  position: relative;
+  z-index: 0;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.conic::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 9px;
+  top: 8px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background: #000;
+  border-radius: 50%;
+}
+.conic::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+  background-color: #72e2ae;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: conic-gradient(transparent, #13664a, transparent 30%);
+  animation: rotate 4s linear infinite;
+}
+.img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@layer components {
+  .primary-btn {
+    @apply hover:ring-4 ring-sec-color;
+  }
+  .social-btn {
+    @apply border shadow-lg shadow-sec-color border-main-color hover:bg-main-color hover:text-gray-800 cursor-pointer lg:p-3 p-2 lg:text-xl text-xs rounded border-b-4 duration-500;
+  }
 }

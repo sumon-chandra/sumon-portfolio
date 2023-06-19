@@ -21,7 +21,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="nav-glass fixed w-full">
+    <nav className="my-glass fixed w-full">
       <div className="navbar lg:w-[1300px] mx-auto">
         <div className="navbar-start">
           <a
@@ -49,7 +49,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu gap-3 menu-sm dropdown-content mt-6 ms-10 p-2 shadow nav-glass rounded-box w-36"
+              className="menu gap-3 menu-sm dropdown-content mt-6 ms-10 p-2 shadow my-glass rounded-box w-36"
             >
               {navOptions}
             </ul>

@@ -9,6 +9,7 @@ export default {
       colors: {
         "main-color": "#72E2AE",
         "sec-color": "#233F45",
+        "desc-color": "#818391",
       },
     },
   },
