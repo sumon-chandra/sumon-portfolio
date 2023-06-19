@@ -8,7 +8,7 @@ const SectionHead = ({ parallaxValue, value }: SectionTitles) => {
           {parallaxValue}
         </h3>
       </Parallax>
-      <div className="absolute top-4 lg:right-[45%] right-[30%] left-[30%] lg:left-[45%] text-center text-xl">
+      <div className="absolute top-4 lg:right-[40%] right-[30%] left-[30%] lg:left-[40%] text-center text-xl">
         <h3 className="uppercase text-2xl pb-4 font-black">{value}</h3>
         <div className="w-full bg-sec-color rounded-xl h-2 section-underline relative"></div>
       </div>
