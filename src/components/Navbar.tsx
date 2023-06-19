@@ -6,7 +6,7 @@ const Navbar = () => {
       <a className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">01.</span> HOME
       </a>
-      <a className="cursor-pointer hover:text-main-color">
+      <a href="#about" className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">02.</span> ABOUT
       </a>
       <a className="cursor-pointer hover:text-main-color">
@@ -21,7 +21,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="my-glass fixed w-full">
+    <nav className="my-glass z-20 fixed w-full">
       <div className="navbar lg:w-[1300px] mx-auto">
         <div className="navbar-start">
           <a

@@ -62,11 +62,42 @@ body {
   border-radius: 50%;
 }
 
+.section-underline::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #72e2ae;
+  position: absolute;
+  border-radius: 50%;
+  animation: swipe 4s linear infinite;
+}
+
+@keyframes swipe {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.about-list::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 9999px;
+  background-color: #72e2ae;
+}
 @layer components {
   .primary-btn {
     @apply hover:ring-4 ring-sec-color;
   }
   .social-btn {
     @apply border shadow-lg shadow-sec-color border-main-color hover:bg-main-color hover:text-gray-800 cursor-pointer lg:p-3 p-2 lg:text-xl text-xs rounded border-b-4 duration-500;
+  }
+  .section {
+    @apply lg:w-[1300px] mx-auto lg:mt-20 p-4 overflow-hidden relative;
   }
 }

@@ -1,0 +1,71 @@
+import SectionHead from "../components/SectionHead";
+
+const About = () => {
+  return (
+    <section className="section" id="about">
+      <SectionHead parallaxValue="About" value="About me" />
+      <div className="py-6 lg:grid grid-cols-2 gap-20">
+        <p className="text-desc-color lg:text-lg text-justify">
+          Sumon Chandra Shil is a skilled MERN stack web developer with
+          expertise in ReactJS, Typescript, MongoDB, ExpressJS, NodeJS, and
+          various other technologies related to JavaScript and Typescript. With
+          a passion for crafting dynamic and interactive web applications, Sumon
+          brings creativity and proficiency to every project. With a keen eye
+          for detail and a strong problem-solving mindset, Sumon is committed to
+          delivering high-quality, efficient, and user-friendly solutions. From
+          front-end development to back-end implementation, Sumon possesses the
+          comprehensive skills necessary to build robust and scalable web
+          applications.
+        </p>
+        <div className="space-y-4">
+          <h3 className="lg:text-2xl text-lg font-black">
+            Hi, I am <span className="text-main-color">Sumon Chandra Shil</span>
+          </h3>
+          <ul className="list-disc list-inside space-y-3">
+            <li className="about-list relative">
+              <strong className="inline-block min-w-[120px] font-medium">
+                First Name
+              </strong>
+              : Sumon Chandra
+            </li>
+            <li className="about-list relative">
+              <strong className="inline-block min-w-[120px] font-medium">
+                Last Name
+              </strong>
+              : Shil
+            </li>
+            <li className="about-list relative">
+              <strong className="inline-block min-w-[120px] font-medium">
+                Age
+              </strong>
+              : 22 years
+            </li>
+            <li className="about-list relative">
+              <strong className="inline-block min-w-[120px] font-medium">
+                Nationality
+              </strong>
+              : Bangladesh
+            </li>
+            <li className="about-list relative">
+              <strong className="inline-block min-w-[120px] font-medium">
+                Language
+              </strong>
+              : English, Bengali
+            </li>
+            <li className="about-list relative">
+              <strong className="inline-block min-w-[120px] font-medium">
+                Address
+              </strong>
+              : Habiganj, Sylhet, Bangladesh
+            </li>
+          </ul>
+          <button className="btn lg:btn-md btn-sm primary-btn bg-main-color hover:bg-main-color border-0 rounded">
+            <span>Download Resume</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
