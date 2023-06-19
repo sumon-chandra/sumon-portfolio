@@ -3,14 +3,14 @@ import { BiMenu } from "react-icons/bi";
 const Navbar = () => {
   const navOptions = (
     <>
-      <a className="cursor-pointer hover:text-main-color">
+      <a href="#" className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">01.</span> HOME
       </a>
       <a href="#about" className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">02.</span> ABOUT
       </a>
-      <a className="cursor-pointer hover:text-main-color">
-        <span className="text-main-color">03.</span> RESUME
+      <a href="#skills" className="cursor-pointer hover:text-main-color">
+        <span className="text-main-color">03.</span> SKILLS
       </a>
       <a className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">04.</span> PROJECTS

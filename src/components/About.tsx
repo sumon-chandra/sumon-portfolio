@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="section" id="about">
       <SectionHead parallaxValue="About" value="About me" />
-      <div className="py-6 lg:grid grid-cols-2 gap-20">
+      <div className="lg:pt-6 lg:grid grid-cols-2 gap-20">
         <p className="text-desc-color lg:text-lg text-justify">
           Sumon Chandra Shil is a skilled MERN stack web developer with
           expertise in ReactJS, Typescript, MongoDB, ExpressJS, NodeJS, and
@@ -17,43 +17,43 @@ const About = () => {
           comprehensive skills necessary to build robust and scalable web
           applications.
         </p>
-        <div className="space-y-4">
+        <div className="space-y-4 lg:mt-0 mt-4">
           <h3 className="lg:text-2xl text-lg font-black">
             Hi, I am <span className="text-main-color">Sumon Chandra Shil</span>
           </h3>
           <ul className="list-disc list-inside space-y-3">
             <li className="about-list relative">
-              <strong className="inline-block min-w-[120px] font-medium">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 First Name
               </strong>
               : Sumon Chandra
             </li>
             <li className="about-list relative">
-              <strong className="inline-block min-w-[120px] font-medium">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Last Name
               </strong>
               : Shil
             </li>
             <li className="about-list relative">
-              <strong className="inline-block min-w-[120px] font-medium">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Age
               </strong>
               : 22 years
             </li>
             <li className="about-list relative">
-              <strong className="inline-block min-w-[120px] font-medium">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Nationality
               </strong>
               : Bangladesh
             </li>
             <li className="about-list relative">
-              <strong className="inline-block min-w-[120px] font-medium">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Language
               </strong>
               : English, Bengali
             </li>
             <li className="about-list relative">
-              <strong className="inline-block min-w-[120px] font-medium">
+              <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Address
               </strong>
               : Habiganj, Sylhet, Bangladesh
