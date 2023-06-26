@@ -7,6 +7,16 @@ const About = () => {
     "Frontend Developer",
     "Web Developer",
   ];
+
+  // ?? Handle Download Resume
+  const handleDownload = () => {
+    const resumeUrl =
+      "https://drive.google.com/file/d/1gbgYYVTUGtmRkxuQxqSXwBBR3qO4VqXO/view?usp=sharing";
+    const fileIdMatch = resumeUrl.match(/[-\w]{25,}/);
+    const fileId = fileIdMatch?.[0] ?? "";
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    window.location.href = downloadUrl;
+  };
   return (
     <section className="section" id="about">
       <SectionHead parallaxValue="About" value="About me" />
@@ -73,7 +83,7 @@ const About = () => {
               : Habiganj, Sylhet, Bangladesh
             </li>
           </ul>
-          <button className="social-btn">
+          <button onClick={handleDownload} className="social-btn">
             <span>Download Resume</span>
           </button>
         </div>
