@@ -37,7 +37,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn lg:btn-md btn-sm primary-btn bg-main-color hover:bg-main-color border-0 rounded">
+          <button className="btn lg:btn-md btn-sm primary-btn bg-main-color hover:bg-main-color border-0 rounded shadow-lg shadow-sec-color">
             <span>Hire me</span>
           </button>
           <div className="dropdown dropdown-left">

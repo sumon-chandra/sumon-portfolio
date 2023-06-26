@@ -1,6 +1,12 @@
+import { Typewriter } from "react-simple-typewriter";
 import SectionHead from "../components/SectionHead";
 
 const About = () => {
+  const words = [
+    "MERN Stack Web Developer",
+    "Frontend Developer",
+    "Web Developer",
+  ];
   return (
     <section className="section" id="about">
       <SectionHead parallaxValue="About" value="About me" />
@@ -19,7 +25,15 @@ const About = () => {
         </p>
         <div className="space-y-4 lg:mt-0 mt-4">
           <h3 className="lg:text-2xl text-lg font-black">
-            Hi, I am <span className="text-main-color">Sumon Chandra Shil</span>
+            Hi, I am a{" "}
+            <span className="text-main-color">
+              <Typewriter
+                words={words}
+                loop={0}
+                cursor={true}
+                cursorColor="rgb(114 226 174)"
+              />
+            </span>
           </h3>
           <ul className="list-disc list-inside space-y-3">
             <li className="about-list relative">
@@ -59,7 +73,7 @@ const About = () => {
               : Habiganj, Sylhet, Bangladesh
             </li>
           </ul>
-          <button className="btn lg:btn-md btn-sm primary-btn bg-main-color hover:bg-main-color border-0 rounded">
+          <button className="social-btn">
             <span>Download Resume</span>
           </button>
         </div>

@@ -14,7 +14,11 @@ interface Project {
 
 const ProjectCard = ({ img, title, demoLink, githubLink }: Project) => {
   return (
-    <div className="p-6 bg-[#1a2436e6] text-desc-color rounded-md hover:-translate-y-2 duration-500">
+    <div
+      data-aos="zoom-out-dow"
+      data-aos-duration="2000"
+      className="p-6 bg-[#1a2436e6] text-desc-color rounded-md hover:-translate-y-2 duration-500"
+    >
       <figure>
         <img src={img} className="w-full rounded-md" />
       </figure>
