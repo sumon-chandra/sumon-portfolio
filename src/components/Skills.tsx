@@ -20,7 +20,7 @@ const SkillCard = ({ skill, img, index }: SkillTypes) => {
   return (
     <div data-aos="zoom-out-dow" data-aos-duration="2000">
       <Tilt
-        className={`card bg-[#162033] rounded-3xl shadow-2xl mx-auto w-40 h-40 select-none ${
+        className={`group card bg-[#162033] rounded-3xl shadow-2xl mx-auto w-40 h-40 select-none ${
           index % 2 === 0 ? "lg:mt-0 mt-5" : "lg:mt-28 mt-5"
         }`}
         perspective={500}
@@ -29,7 +29,7 @@ const SkillCard = ({ skill, img, index }: SkillTypes) => {
         <div>
           <img
             src={img}
-            className="object-contain mx-auto p-4 h-32 duration-500 saturate-0 hover:saturate-100"
+            className="object-contain mx-auto p-4 h-32 duration-500 saturate-0 group-hover:saturate-100"
           />
           <h3 className="text-desc-color lg:text-lg font-black text-center">
             {skill}

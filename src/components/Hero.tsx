@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section style={{ backgroundImage: `url(${pattern})` }}>
       <div className="flex flex-col items-center justify-center min-h-screen gap-8 relative lg:p-0 p-5">
-        <div className="conic">
+        <div className="conic shadow-2xl shadow-sec-color">
           <img src={profile} className="img" />
         </div>
         <h3 className="lg:text-5xl text-2xl font-bold">
