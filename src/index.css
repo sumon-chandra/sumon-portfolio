@@ -70,7 +70,7 @@ body {
   background-color: #72e2ae;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: conic-gradient(transparent, #13664a, transparent 30%);
+  background-image: conic-gradient(transparent, #00452e, transparent 30%);
   animation: rotate 4s linear infinite;
 }
 .img {

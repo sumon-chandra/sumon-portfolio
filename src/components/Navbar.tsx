@@ -12,10 +12,10 @@ const Navbar = () => {
       <a href="#skills" className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">03.</span> SKILLS
       </a>
-      <a className="cursor-pointer hover:text-main-color">
+      <a href="#projects" className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">04.</span> PROJECTS
       </a>
-      <a className="cursor-pointer hover:text-main-color">
+      <a href="#contact" className="cursor-pointer hover:text-main-color">
         <span className="text-main-color">05.</span> CONTACT
       </a>
     </>

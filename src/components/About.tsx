@@ -20,8 +20,12 @@ const About = () => {
   return (
     <section className="section" id="about">
       <SectionHead parallaxValue="About" value="About me" />
-      <div className="lg:pt-6 lg:grid grid-cols-2 gap-20">
-        <p className="text-desc-color lg:text-lg text-justify">
+      <div className="lg:mt-20 lg:grid grid-cols-2 gap-20">
+        <p
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          className="text-desc-color lg:text-lg text-justify"
+        >
           Sumon Chandra Shil is a skilled MERN stack web developer with
           expertise in ReactJS, Typescript, MongoDB, ExpressJS, NodeJS, and
           various other technologies related to JavaScript and Typescript. With
@@ -33,7 +37,11 @@ const About = () => {
           comprehensive skills necessary to build robust and scalable web
           applications.
         </p>
-        <div className="space-y-4 lg:mt-0 mt-4">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          className="space-y-4 lg:mt-0 mt-4"
+        >
           <h3 className="lg:text-2xl text-lg font-black">
             Hi, I am a{" "}
             <span className="text-main-color">

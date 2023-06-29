@@ -45,7 +45,7 @@ const ProjectCard = ({ img, title, demoLink, githubLink }: Project) => {
 
 const Projects = () => {
   return (
-    <section className="section">
+    <section id="projects" className="section">
       <SectionHead parallaxValue="projects" value="my projects" />
       <div className="lg:grid grid-cols-3 gap-10 lg:mt-20">
         <ProjectCard

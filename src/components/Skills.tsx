@@ -45,7 +45,7 @@ const Skills = () => {
     <section className="section" id="skills">
       <SectionHead parallaxValue="skills" value="my skills" />
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-7 lg:py-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-7 lg:mt-20 lg:mb-8">
         <SkillCard index={1} skill="TypeScript" img={ts} />
         <SkillCard index={2} skill="JavaScript" img={js} />
         <SkillCard index={3} skill="ReactJS" img={react} />
