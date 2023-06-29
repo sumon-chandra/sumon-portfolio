@@ -43,7 +43,7 @@ const About = () => {
           className="space-y-4 lg:mt-0 mt-4"
         >
           <h3 className="lg:text-2xl text-lg font-black">
-            Hi, I am a{" "}
+            I am a{" "}
             <span className="text-main-color">
               <Typewriter
                 words={words}
