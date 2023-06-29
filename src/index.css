@@ -73,6 +73,9 @@ body {
   background-image: conic-gradient(transparent, #00452e, transparent 30%);
   animation: rotate 4s linear infinite;
 }
+.blur-img {
+  filter: blur(8px);
+}
 .img {
   width: 100%;
   border-radius: 50%;

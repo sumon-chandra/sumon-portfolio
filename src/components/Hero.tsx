@@ -1,3 +1,4 @@
+import { useState } from "react";
 import pattern from "../assets/pattern.png";
 import profile from "../assets/profile.png";
 import {
@@ -8,11 +9,17 @@ import {
   FaAngleDown,
 } from "react-icons/fa";
 const Hero = () => {
+  const [isImgLoaded, setIsImgLoaded] = useState<boolean>(true);
   return (
     <section style={{ backgroundImage: `url(${pattern})` }}>
       <div className="flex flex-col items-center justify-center min-h-screen gap-8 relative lg:p-0 p-5">
         <div className="conic shadow-2xl shadow-sec-color">
-          <img src={profile} className="img" />
+          <img
+            src={profile}
+            className={`img ${isImgLoaded ? "blur-img" : ""}`}
+            loading="lazy"
+            onLoad={() => setIsImgLoaded(false)}
+          />
         </div>
         <h3 className="lg:text-5xl text-2xl font-bold">
           Hi, I'm <span className="text-main-color">Sumon Chandra Shil</span>
