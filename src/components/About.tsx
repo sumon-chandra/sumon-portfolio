@@ -54,37 +54,37 @@ const About = () => {
             </span>
           </h3>
           <ul className="list-disc list-inside space-y-3">
-            <li className="about-list relative">
+            <li className="my-list relative">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 First Name
               </strong>
               : Sumon Chandra
             </li>
-            <li className="about-list relative">
+            <li className="my-list relative">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Last Name
               </strong>
               : Shil
             </li>
-            <li className="about-list relative">
+            <li className="my-list relative">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Age
               </strong>
               : 22 years
             </li>
-            <li className="about-list relative">
+            <li className="my-list relative">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Nationality
               </strong>
               : Bangladesh
             </li>
-            <li className="about-list relative">
+            <li className="my-list relative">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Language
               </strong>
               : English, Bengali
             </li>
-            <li className="about-list relative">
+            <li className="my-list relative">
               <strong className="inline-block lg:min-w-[120px] min-w-[100px] font-medium">
                 Address
               </strong>

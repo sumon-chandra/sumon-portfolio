@@ -32,26 +32,26 @@ const Projects = () => {
                 className="w-full transition-transform duration-[10000ms] hover:-translate-y-[80%]"
               />
             </figure>
-            <h3 className="lg:text-xl font-black mt-3">{project.name}</h3>
+            <h3 className="font-black mt-3">{project.name}</h3>
             <div className="flex justify-center gap-4 pt-6 z-40">
-              <a
-                href={project.demoUrl}
-                target="_blank"
-                className="flex gap-1 items-center text-xs pb-2 border-b-2 border-main-color"
-              >
-                <span>Live Demo</span> <FaExternalLinkAlt />
-              </a>
               <label
                 onClick={() => setSelectedProject(project)}
                 htmlFor="projectDetailsModal"
-                className="flex gap-1 items-center text-xs pb-2 border-b-2 border-main-color cursor-pointer"
+                className="project-card cursor-pointer"
               >
                 <span>See Details</span> <FaExternalLinkAlt />
               </label>
               <a
+                href={project.demoUrl}
+                target="_blank"
+                className="project-card"
+              >
+                <span>Live Demo</span> <FaExternalLinkAlt />
+              </a>
+              <a
                 href={project.githubUrl}
                 target="_blank"
-                className="flex gap-1 items-center text-xs pb-2 border-b-2 border-main-color"
+                className="project-card"
               >
                 <span>Github Link</span> <FaExternalLinkAlt />
               </a>

@@ -7,10 +7,7 @@ import "./index.css";
 import { ParallaxProvider } from "react-scroll-parallax";
 import "aos/dist/aos.css";
 AOS.init();
-// import Swiper and modules styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import "keen-slider/keen-slider.min.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
