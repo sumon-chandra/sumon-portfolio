@@ -31,6 +31,12 @@ body {
   background-color: rgba(15, 23, 42, 0.78);
   border-bottom: 1px solid #9394a2;
 }
+.my-glass2 {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(15, 23, 42, 0.78);
+  border-bottom: 1px solid #9394a2;
+}
 @keyframes rotate {
   100% {
     transform: rotate(1turn);

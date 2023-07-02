@@ -5,9 +5,12 @@ import AOS from "aos";
 
 import "./index.css";
 import { ParallaxProvider } from "react-scroll-parallax";
-// Import AOS styles
 import "aos/dist/aos.css";
 AOS.init();
+// import Swiper and modules styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

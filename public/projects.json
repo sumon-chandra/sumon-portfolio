@@ -1,0 +1,103 @@
+[
+  {
+    "id": 24324223,
+    "name": "Rhymove Dance Studio & School",
+    "demoUrl": "https://rhymove-2023.web.app/",
+    "githubUrl": "https://github.com/sumon-chandra/rhymove-client",
+    "about": "Rhymove is a dance studio and school. Where we have world class instructor and their top rated and most valuable classes.",
+    "features": [
+      "Rhymove is a full-stack project.",
+      "You can see our popular classes and top rated instructors.",
+      "You can select the classes that you want to purchase.",
+      "But If want to purchase a class you have to logged in first.",
+      "Once you are logged in you can select a class and you can see a Dashboard in the top after the classes page.",
+      "Once you select a class now you can purchase that class using cards ( Mastercard, Visa etc. ).",
+      "An admin could make you as an admin or instructor.",
+      "If you are a instructor you can add your own class and you can see your classes and the status of those classes.",
+      "If you are an Admin you can approve/deny/sent feedback of a class which is created by instructors."
+    ],
+    "technologies": [
+      "ReactJS",
+      "ExpressJS",
+      "MongoDB",
+      "TenStack Query ( React Query )",
+      "React Stripe ( Payment Getaway )",
+      "Firebase",
+      "TailwindCSS"
+    ],
+    "images": [
+      "https://i.ibb.co/chyKCMC/slider-3.png",
+      "https://i.ibb.co/tH69Bhs/slider-5.png",
+      "https://i.ibb.co/vHDjs8T/slider-4.png",
+      "https://i.ibb.co/4gYvjym/slider-1.png",
+      "https://i.ibb.co/0XWNcxW/slider-2.png"
+    ],
+    "category": "mern",
+    "fullPage": "./../src/assets/projects/screenshots/rhymove.png"
+  },
+  {
+    "id": 8273842,
+    "name": "Botboy - A Superheros Toy Marketplace",
+    "demoUrl": "https://toys-6546d.web.app/",
+    "githubUrl": "https://github.com/sumon-chandra/botboy-client",
+    "about": "Botboy is a superhero toys marketplace where you can find verities of superhero toys.",
+    "features": [
+      "This is a toy eCommerce website where you will find varieties of superhero toys.",
+      "In this project used firebase authentication system for login and registration as well as google login system is there.",
+      "You can see the flash sale for today feature.",
+      "If you want to see ty details you have to make sure that you are authenticated on not.",
+      "Once you are authenticated you can add a new toy for your own and only you can see these toys.",
+      "You can update and delete your toys."
+    ],
+    "technologies": [
+      "ReactJS",
+      "ExpressJS",
+      "MongoDB",
+      "Firebase",
+      "TailwindCSS"
+    ],
+    "images": [
+      "https://i.ibb.co/xHmvfHH/botboy-2.png",
+      "https://i.ibb.co/99Pbj73/botboy-3.png",
+      "https://i.ibb.co/JkxvN2S/botboy-4.png",
+      "https://i.ibb.co/2MMQyky/botboy-5.png",
+      "https://i.ibb.co/rMg0P8p/botboy-6.png",
+      "https://i.ibb.co/C557fxk/botboy-1.png"
+    ],
+    "category": "mern",
+    "fullPage": "./../src/assets/projects/screenshots/botboy.png"
+  },
+  {
+    "id": 4534536,
+    "name": "Bistro Boss Restaurant",
+    "demoUrl": "https://bistro-boss-restaurant-24b36.web.app/",
+    "githubUrl": "https://github.com/sumon-chandra/bistro-restaurant/",
+    "about": "Bistro Boss Restaurant is a Full-Stack Web Application where you can find verities of food items.",
+    "features": [
+      "This is a Full-Stack web application.",
+      "You can add a particular food item to your cart.",
+      "You can purchase these food items by card ( Mastercard, Visa, etc. ).",
+      "This application has a dashboard. As an admin of the application, you can see your current stats of the application.",
+      "You can create/update/delete a food item as an admin.",
+      "As an admin, you can manage users. You can delete or make the user an admin."
+    ],
+    "technologies": [
+      "ReactJS",
+      "ExpressJS",
+      "MongoDB",
+      "TenStack Query ( React Query )",
+      "React Stripe ( Payment Getaway )",
+      "Firebase",
+      "TailwindCSS"
+    ],
+    "images": [
+      "https://i.ibb.co/1XwJLyh/bistro-3.png",
+      "https://i.ibb.co/q9hgNxS/bistro-5.png",
+      "https://i.ibb.co/gMt1308/bistro-1.pngg",
+      "https://i.ibb.co/NVhfsvp/bistro-4.png",
+      "https://i.ibb.co/rMg0P8p/botboy-6.png"
+    ],
+    "category": "mern",
+    "fullPage": "./../src/assets/projects/screenshots/bistro-boss.png"
+  }
+]
