@@ -26,12 +26,11 @@ const Contact = () => {
 
   const handleFormSubmit: SubmitHandler<Inputs> = () => {
     if (formRef.current) {
-      emailjs.sendForm(serviceId, templateId, formRef.current, publicKey).then(
-        () => {
+      emailjs
+        .sendForm(serviceId, templateId, formRef.current, publicKey)
+        .then(() => {
           reset();
-        },
-        (error) => {}
-      );
+        });
     }
   };
   return (

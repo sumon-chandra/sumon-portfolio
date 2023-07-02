@@ -4,16 +4,7 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ project }) => {
-  const {
-    about,
-    category,
-    demoUrl,
-    features,
-    githubUrl,
-    images,
-    technologies,
-    name,
-  } = project;
+  const { about, features, technologies, name } = project;
 
   return (
     <>
