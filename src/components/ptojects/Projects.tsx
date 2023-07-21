@@ -28,7 +28,7 @@ const Projects = () => {
           >
             <figure className="h-60 overflow-hidden rounded-md">
               <img
-                src={project.fullPage}
+                src={project.image}
                 className="w-full transition-transform duration-[10000ms] hover:-translate-y-[80%]"
               />
             </figure>

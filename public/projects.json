@@ -25,15 +25,8 @@
       "Firebase",
       "TailwindCSS"
     ],
-    "images": [
-      "https://i.ibb.co/chyKCMC/slider-3.png",
-      "https://i.ibb.co/tH69Bhs/slider-5.png",
-      "https://i.ibb.co/vHDjs8T/slider-4.png",
-      "https://i.ibb.co/4gYvjym/slider-1.png",
-      "https://i.ibb.co/0XWNcxW/slider-2.png"
-    ],
     "category": "mern",
-    "fullPage": "https://i.ibb.co/0VwH6nP/rhymove.png"
+    "image": "https://i.ibb.co/0VwH6nP/rhymove.png"
   },
   {
     "id": 8273842,
@@ -56,16 +49,8 @@
       "Firebase",
       "TailwindCSS"
     ],
-    "images": [
-      "https://i.ibb.co/xHmvfHH/botboy-2.png",
-      "https://i.ibb.co/99Pbj73/botboy-3.png",
-      "https://i.ibb.co/JkxvN2S/botboy-4.png",
-      "https://i.ibb.co/2MMQyky/botboy-5.png",
-      "https://i.ibb.co/rMg0P8p/botboy-6.png",
-      "https://i.ibb.co/C557fxk/botboy-1.png"
-    ],
     "category": "mern",
-    "fullPage": "https://i.ibb.co/f9KX1CV/botboy.png"
+    "image": "https://i.ibb.co/f9KX1CV/botboy.png"
   },
   {
     "id": 4534536,
@@ -90,14 +75,62 @@
       "Firebase",
       "TailwindCSS"
     ],
-    "images": [
-      "https://i.ibb.co/1XwJLyh/bistro-3.png",
-      "https://i.ibb.co/q9hgNxS/bistro-5.png",
-      "https://i.ibb.co/gMt1308/bistro-1.pngg",
-      "https://i.ibb.co/NVhfsvp/bistro-4.png",
-      "https://i.ibb.co/rMg0P8p/botboy-6.png"
-    ],
     "category": "mern",
-    "fullPage": "https://i.ibb.co/mSxCLQb/bistro.png"
+    "image": "https://i.ibb.co/mSxCLQb/bistro.png"
+  },
+  {
+    "id": 8973483,
+    "name": "Dishtour Restaurant",
+    "about": "Dishtour is a restaurant website that focused on their chefs. Chefs have some special recipes that I included in their detail page.",
+    "category": "frontend",
+    "demoUrl": "https://react-firebase-9fbd1.web.app/",
+    "githubUrl": "https://github.com/sumon-chandra?tab=repositories",
+    "technologies": ["ReactJS", "TailwindCSS"],
+    "features": [
+      "User can see the chefs of this testament and their especial recipes."
+    ],
+    "image": "https://i.ibb.co/Zm2QVvx/dishtour.png"
+  },
+  {
+    "id": 2432434,
+    "name": "Cryptoverse",
+    "about": "Cryproverse is a cryptocurrencies statistics website, where you can find information about various statistics of cryptocurrency coins and latest news relating to the Cryptooverse.",
+    "category": "frontend",
+    "demoUrl": "https://ethospay.netlify.app/",
+    "githubUrl": "https://github.com/sumon-chandra/crypto-app",
+    "technologies": ["ReactJS", "ReduxJS", "Ant Design", "ChartJS"],
+    "features": [
+      "You will find latest stats of Cryptocurrency. For example: Total cryptocurrencies, total exchanges, total market capacity etc.",
+      "Brief overview of Cryptocurrency with chart.",
+      "You will be able to find the useful links for more information on Cryptocurrency."
+    ],
+    "image": "https://i.ibb.co/ggjWgyR/screencapture-ethospay-netlify-app-2023-07-19-23-56-32.png"
+  },
+  {
+    "id": 3412545,
+    "name": "Todo App",
+    "about": "This is a complex todo application where I implemented the ReduxJS functionalities.",
+    "category": "frontend",
+    "demoUrl": "https://complex-todo.netlify.app/",
+    "githubUrl": "https://github.com/sumon-chandra/complex-todo-with-redux-react-typescript",
+    "technologies": ["TypeScript", "ReactJS", "ReduxJS", "TailwindCSS"],
+    "features": [
+      "User can add/delete a task.",
+      "User can priorities a task by color."
+    ],
+    "image": "https://i.ibb.co/F7srgbX/todo.png"
+  },
+  {
+    "id": 4235563,
+    "name": "Covid Stats",
+    "about": "Covid Stats is a simple application that showcase the current covid stats.",
+    "category": "html-css",
+    "demoUrl": "https://covir.netlify.app/",
+    "githubUrl": "https://github.com/sumon-chandra/COVID-Statistics-History",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "features": [
+      "User can see the latest statistics of COVID on a particular country."
+    ],
+    "image": "https://i.ibb.co/y5PKj3x/covid.png"
   }
 ]

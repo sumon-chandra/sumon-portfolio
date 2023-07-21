@@ -21,7 +21,7 @@ const Contact = () => {
     formState: { errors },
   } = useForm<Inputs>();
   const serviceId = "service_ytigqgx";
-  const templateId = "template_o44qy99";
+  const templateId = "template_9zfxnzs";
   const publicKey = "user_E4YQZfabUbW66EvBPNHds";
 
   const handleFormSubmit: SubmitHandler<Inputs> = () => {

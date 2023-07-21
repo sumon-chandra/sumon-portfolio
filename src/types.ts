@@ -10,7 +10,6 @@ export interface ProjectProps {
   about: string;
   features: string[];
   technologies: string[];
-  images: string[];
   category: string;
-  fullPage: string;
+  image: string;
 }

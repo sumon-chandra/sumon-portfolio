@@ -14,7 +14,7 @@ const Modal: React.FC<ModalProps> = ({ project }) => {
         className="modal-toggle"
       />
       <div className="modal bg-[#010504fa]">
-        <div className="my-modal-box lg:max-w-[75%] max-h-[95%] my-glass2 p-8 rounded-lg border border-main-color overflow-y-scroll">
+        <div className="my-modal-box lg:max-w-[75%] max-h-[95%] my-glass2 p-8 rounded-lg border border-main-color lg:overflow-auto overflow-y-scroll">
           {/* ============= Modal Content =============== */}
           <h3 className="font-black lg:text-xl text-xs text-center pb-5">
             {name}
