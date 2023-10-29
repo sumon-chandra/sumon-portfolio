@@ -27,7 +27,7 @@ const Hero = () => {
           Hi, I'm <span className="text-main-color">Sumon Chandra Shil</span>
         </h3>
         <p className="text-xs text-center lg:text-lg lg:w-1/2 text-desc-color">
-          I am a MERN Stack web developer. I can provide clean code and pixel
+          I am a  Web Developer. I can provide clean code and pixel
           perfect design. I also make website more & more interactive with web
           animations.
         </p>

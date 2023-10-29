@@ -7,7 +7,6 @@ import "./index.css";
 import { ParallaxProvider } from "react-scroll-parallax";
 import "aos/dist/aos.css";
 AOS.init();
-import "keen-slider/keen-slider.min.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
