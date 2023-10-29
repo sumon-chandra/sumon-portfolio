@@ -3,8 +3,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/ptojects/Projects";
-import Skills from "./components/Skills";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
 const App = () => {
   return (
     <>
