@@ -4,7 +4,7 @@ const SectionHead = ({ parallaxValue, value }: SectionTitles) => {
   return (
     <>
       <Parallax translateX={[-200, 200]}>
-        <h3 className="lg:text-[200px] text-[100px] text-[#1B2335] font-black leading-[145px] uppercase">
+        <h3 className="lg:text-[150px] text-[100px] text-[#1B2335] font-black leading-[145px] uppercase">
           {parallaxValue}
         </h3>
       </Parallax>

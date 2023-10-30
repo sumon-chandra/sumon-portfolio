@@ -29,7 +29,7 @@ function MouseAnimation() {
     }, [])
     return (
 
-        <div className="hidden lg:block blur-[90px] opacity-50 absolute top-4 right-[33%]" ref={ref}>
+        <div className="hidden lg:block blur-[90px] opacity-50 absolute bottom-4 right-[33%]" ref={ref}>
             <motion.div
                 animate={{
                     translateX: deltaX * 0.1,

@@ -52,7 +52,6 @@ const Navbar = () => {
               className="items-center justify-center gap-3 py-20 mt-6 shadow w-72 menu menu-sm dropdown-content ms-10 my-glass rounded-box"
             >
               <div className="flex flex-col items-start justify-start gap-6 text-lg">
-
                 {navOptions}
               </div>
             </ul>

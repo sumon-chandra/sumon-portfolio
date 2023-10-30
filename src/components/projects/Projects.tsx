@@ -6,9 +6,7 @@ import { ProjectProps } from "../../types";
 
 const Projects = () => {
   const [projects, setProjects] = useState<ProjectProps[]>([]);
-  const [selectedProject, setSelectedProject] = useState<
-    ProjectProps | undefined
-  >();
+  const [selectedProject, setSelectedProject] = useState<ProjectProps | undefined>();
   useEffect(() => {
     fetch("./projects.json")
       .then((res) => res.json())
@@ -18,7 +16,7 @@ const Projects = () => {
   return (
     <section id="projects" className="section">
       <SectionHead parallaxValue="projects" value="my projects" />
-      <div className="lg:grid grid-cols-3 gap-10 lg:mt-20">
+      <div className="grid-cols-3 gap-10 lg:grid lg:mt-20">
         {projects?.map((project) => (
           <div
             key={project.id}
@@ -26,18 +24,18 @@ const Projects = () => {
             data-aos-duration="2000"
             className="p-6 bg-[#1a2436e6] text-desc-color rounded-md"
           >
-            <figure className="h-60 overflow-hidden rounded-md">
+            <figure className="overflow-hidden rounded-md h-60">
               <img
                 src={project.image}
                 className="w-full transition-transform duration-[10000ms] hover:-translate-y-[80%]"
               />
             </figure>
-            <h3 className="font-black mt-3">{project.name}</h3>
-            <div className="flex justify-center gap-4 pt-6 z-40">
+            <h3 className="mt-3 font-black">{project.name}</h3>
+            <div className="z-40 flex justify-center gap-4 pt-6">
               <label
                 onClick={() => setSelectedProject(project)}
                 htmlFor="projectDetailsModal"
-                className="project-card cursor-pointer"
+                className="cursor-pointer project-card"
               >
                 <span>See Details</span> <FaExternalLinkAlt />
               </label>
